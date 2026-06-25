@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zynx Media – Premium Digital Marketing Agency. Website Development, SEO, Meta Ads, Google Ads, Branding & More." />
+  <meta name="keywords" content="digital marketing, website development, SEO, meta ads, google ads, branding, social media marketing" />
+  <meta name="author" content="Zynx Media" />
+  <meta property="og:title" content="Zynx Media – Grow Your Business With Digital Marketing" />
+  <meta property="og:description" content="Premium digital marketing agency offering website development, SEO, ads management, branding and more." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://zynx.site" />
+  <title>Zynx Media – Digital Marketing Agency</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-z">Z</span>YNX <span class="logo-media">MEDIA</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#why-us" class="nav-link">Why Us</a></li>
+    
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="nav-cta-btn">Get Started</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-slider">
+      <div class="hero-slide active"></div>
+      <div class="hero-slide"></div>
+      <div class="hero-slide"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="particles"></div>
+
+    <div class="hero-content" data-aos="fade-up">
+      <div class="hero-badge">
+        <span class="badge-dot"></span> Premium Digital Agency
+      </div>
+      <h1 class="hero-title">
+        Grow Your Business With<br />
+        <span class="gradient-text">Digital Marketing</span>
+      </h1>
+      <p class="hero-subtitle">
+        We craft data-driven strategies, stunning websites, and powerful ad campaigns
+        that turn your audience into loyal customers.
+      </p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">
+          <i class="fas fa-rocket"></i> Get Free Consultation
+        </a>
+        <a href="#portfolio" class="btn-secondary">
+          <i class="fas fa-play-circle"></i> View Our Work
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num" data-target="50">0</span><span>+</span>
+          <span class="stat-label">Projects Done</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="20">0</span><span>+</span>
+          <span class="stat-label">Happy Clients</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="1">0</span><span>+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="80+">0</span><span>%</span>
+          <span class="stat-label">Satisfaction Rate</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Our <span class="gradient-text">Services</span></h2>
+        <p class="section-sub">Comprehensive digital solutions to grow your brand online</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon-wrap">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Website Development</h3>
+          <p>Custom, fast, and mobile-responsive websites built to convert visitors into customers.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Landing Pages</li>
+            <li><i class="fas fa-check"></i> E-Commerce Sites</li>
+            <li><i class="fas fa-check"></i> Business Portals</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="service-icon-wrap">
+            <i class="fas fa-share-alt"></i>
+          </div>
+          <h3>Social Media Marketing</h3>
+          <p>Strategic content creation and community management to grow your social presence.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Content Strategy</li>
+            <li><i class="fas fa-check"></i> Posting & Scheduling</li>
+            <li><i class="fas fa-check"></i> Audience Growth</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card featured" data-aos="fade-up" data-aos-delay="200">
+          <div class="featured-badge">Popular</div>
+          <div class="service-icon-wrap">
+            <i class="fab fa-meta"></i>
+          </div>
+          <h3>Meta Ads</h3>
+          <p>High-converting Facebook & Instagram ad campaigns that maximize your ROI.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Ad Creatives</li>
+            <li><i class="fas fa-check"></i> Audience Targeting</li>
+            <li><i class="fas fa-check"></i> Campaign Optimization</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="service-icon-wrap">
+            <i class="fab fa-google"></i>
+          </div>
+          <h3>Google Ads</h3>
+          <p>Targeted PPC campaigns on Google Search, Display, and YouTube for maximum reach.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Search Campaigns</li>
+            <li><i class="fas fa-check"></i> Display Ads</li>
+            <li><i class="fas fa-check"></i> Remarketing</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon-wrap">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3>SEO</h3>
+          <p>Rank higher on Google and drive organic traffic that grows your business long-term.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> On-Page SEO</li>
+            <li><i class="fas fa-check"></i> Technical SEO</li>
+            <li><i class="fas fa-check"></i> Link Building</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="350">
+          <div class="service-icon-wrap">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>Graphic Design</h3>
+          <p>Eye-catching visuals that communicate your brand story and captivate your audience.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Social Media Posts</li>
+            <li><i class="fas fa-check"></i> Banners & Flyers</li>
+            <li><i class="fas fa-check"></i> Brand Identity</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon-wrap">
+            <i class="fas fa-film"></i>
+          </div>
+          <h3>Video Editing</h3>
+          <p>Professional video production and editing for reels, ads, and promotional content.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Reels & Shorts</li>
+            <li><i class="fas fa-check"></i> Ad Videos</li>
+            <li><i class="fas fa-check"></i> Motion Graphics</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="450">
+          <div class="service-icon-wrap">
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Branding</h3>
+          <p>Build a powerful brand identity that stands out, builds trust, and drives loyalty.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check"></i> Logo Design</li>
+            <li><i class="fas fa-check"></i> Brand Guidelines</li>
+            <li><i class="fas fa-check"></i> Brand Strategy</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Quote <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY CHOOSE US ===================== -->
+  <section class="why-us section" id="why-us">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Our Edge</span>
+        <h2 class="section-title">Why Choose <span class="gradient-text">Zynx Media</span></h2>
+        <p class="section-sub">We don't just run campaigns — we build growth engines</p>
+      </div>
+
+      <div class="why-grid">
+
+        <div class="why-card" data-aos="fade-right" data-aos-delay="100">
+          <div class="why-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <div class="why-content">
+            <h3>Fast Delivery</h3>
+            <p>We respect your timeline. Projects are delivered on schedule without compromising quality — ever.</p>
+          </div>
+          <div class="why-number">01</div>
+        </div>
+
+        <div class="why-card" data-aos="fade-right" data-aos-delay="200">
+          <div class="why-icon">
+            <i class="fas fa-tags"></i>
+          </div>
+          <div class="why-content">
+            <h3>Affordable Pricing</h3>
+            <p>Premium services at prices that make sense for startups and growing businesses alike.</p>
+          </div>
+          <div class="why-number">02</div>
+        </div>
+
+        <div class="why-card" data-aos="fade-left" data-aos-delay="300">
+          <div class="why-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <div class="why-content">
+            <h3>Creative Team</h3>
+            <p>Our team of designers, strategists, and developers think outside the box to deliver unique solutions.</p>
+          </div>
+          <div class="why-number">03</div>
+        </div>
+
+        <div class="why-card" data-aos="fade-left" data-aos-delay="400">
+          <div class="why-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="why-content">
+            <h3>Result Driven</h3>
+            <p>Every strategy is built around measurable outcomes — leads, sales, traffic, and real ROI.</p>
+          </div>
+          <div class="why-number">04</div>
+        </div>
+
+      </div>
+
+      <!-- Process Timeline -->
+      <div class="process-section" data-aos="fade-up">
+        <h3 class="process-title">How We Work</h3>
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-circle"><i class="fas fa-comments"></i></div>
+            <div class="step-line"></div>
+            <h4>Consultation</h4>
+            <p>We understand your goals and vision</p>
+          </div>
+          <div class="process-step">
+            <div class="step-circle"><i class="fas fa-map"></i></div>
+            <div class="step-line"></div>
+            <h4>Strategy</h4>
+            <p>We craft a custom roadmap for growth</p>
+          </div>
+          <div class="process-step">
+            <div class="step-circle"><i class="fas fa-hammer"></i></div>
+            <div class="step-line"></div>
+            <h4>Execution</h4>
+            <p>We build and launch with precision</p>
+          </div>
+          <div class="process-step">
+            <div class="step-circle"><i class="fas fa-trophy"></i></div>
+            <div class="step-line last"></div>
+            <h4>Results</h4>
+            <p>We track, optimize, and scale</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Client Love</span>
+        <h2 class="section-title">What Clients <span class="gradient-text">Say About Us</span></h2>
+        <p class="section-sub">Real feedback from real clients who trusted Zynx Media</p>
+      </div>
+
+      <div class="testimonials-slider" data-aos="fade-up">
+        <div class="testimonials-track" id="testimonialsTrack">
+
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <div class="client-avatar avatar-1">
+                <span>AK</span>
+              </div>
+              <div class="client-info">
+                <h4>Arjun Kapoor</h4>
+                <p>Founder, StyleHouse India</p>
+              </div>
+              <div class="testimonial-rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="testimonial-text">"Zynx Media transformed our brand completely. Our Instagram grew by 300% in 2 months and the website they built gets compliments every day from our customers."</p>
+            <div class="testimonial-service"><i class="fas fa-tag"></i> Social Media + Website</div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <div class="client-avatar avatar-2">
+                <span>PS</span>
+              </div>
+              <div class="client-info">
+                <h4>Priya Sharma</h4>
+                <p>CEO, TechNova Solutions</p>
+              </div>
+              <div class="testimonial-rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="testimonial-text">"Their Meta Ads campaign generated 5x ROAS in the very first month. The team is professional, responsive, and truly understands performance marketing."</p>
+            <div class="testimonial-service"><i class="fas fa-tag"></i> Meta Ads</div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <div class="client-avatar avatar-3">
+                <span>MR</span>
+              </div>
+              <div class="client-info">
+                <h4>Mohammed Raza</h4>
+                <p>Owner, Raza Restaurants</p>
+              </div>
+              <div class="testimonial-rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <p class="testimonial-text">"Our Google ranking jumped from page 5 to page 1 within 3 months thanks to Zynx's SEO team. Foot traffic to our restaurant has increased significantly."</p>
+            <div class="testimonial-service"><i class="fas fa-tag"></i> SEO + Google Ads</div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-top">
+              <div class="client-avatar avatar-4">
+                <span>NS</span>
+              </div>
+              <div class="client-info">
+                <h4>Neha Singh</h4>
+                <p>Director, Bloom Boutique</p>
+              </div>
+              <div class="testimonial-rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+            <p class="testimonial-text">"The branding and logo design exceeded all my expectations. Zynx Media gave our boutique a premium identity that truly resonates with our target customers."</p>
+            <div class="testimonial-service"><i class="fas fa-tag"></i> Branding + Logo</div>
+          </div>
+
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-btn prev" id="sliderPrev"><i class="fas fa-chevron-left"></i></button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn next" id="sliderNext"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's <span class="gradient-text">Work Together</span></h2>
+        <p class="section-sub">Ready to grow? Let's talk about your project.</p>
+      </div>
+
+      <div class="contact-wrapper">
+
+        <div class="contact-info" data-aos="fade-right">
+          <h3>Contact Information</h3>
+          <p>Reach out via any channel — we respond fast.</p>
+
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:mdakmal70786@gmail.com">mdakmal70786@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+917070017747">+91 7070017747</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+              <div>
+                <span class="contact-label">WhatsApp</span>
+                <a href="https://wa.me/917070017747" target="_blank">Chat With Us</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <span class="contact-label">Location</span>
+                <span>India – Serving Clients Worldwide</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+
+          <!-- WhatsApp Float Button Source -->
+          <a href="https://wa.me/917070017747" target="_blank" class="whatsapp-inline-btn">
+            <i class="fab fa-whatsapp"></i> Start WhatsApp Chat
+          </a>
+        </div>
+
+        <div class="contact-form-wrap" data-aos="fade-left">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Full Name</label>
+                <input type="text" id="fname" placeholder="Your full name" required />
+              </div>
+              <div class="form-group">
+                <label for="femail">Email Address</label>
+                <input type="email" id="femail" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fphone">Phone Number</label>
+                <input type="tel" id="fphone" placeholder="+91 XXXXX XXXXX" />
+              </div>
+              <div class="form-group">
+                <label for="fservice">Service Needed</label>
+                <select id="fservice">
+                  <option value="">Select a service</option>
+                  <option>Website Development</option>
+                  <option>Social Media Marketing</option>
+                  <option>Meta Ads</option>
+                  <option>Google Ads</option>
+                  <option>SEO</option>
+                  <option>Graphic Design</option>
+                  <option>Video Editing</option>
+                  <option>Branding</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group full">
+              <label for="fmessage">Your Message</label>
+              <textarea id="fmessage" rows="5" placeholder="Tell us about your project..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary submit-btn">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fab fa-whatsapp"></i> WhatsApp open ho gaya! Agar nahi khula toh <a href="https://wa.me/917070017747" target="_blank" style="color:#25d366;text-decoration:underline;">yahan click karo</a>.
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Map Embed Placeholder -->
+      <div class="map-container" data-aos="fade-up">
+        <div class="map-placeholder">
+          <i class="fas fa-map-marked-alt"></i>
+          <p>Serving clients across India and worldwide</p>
+          <span>📍 India – Available for Remote & On-Site Projects</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo footer-logo">
+            <span class="logo-z">Z</span>YNX <span class="logo-media">MEDIA</span>
+          </a>
+          <p>We help businesses grow online through smart digital marketing strategies and premium creative solutions.</p>
+          <div class="social-links footer-social">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Website Development</a></li>
+            <li><a href="#services">Social Media Marketing</a></li>
+            <li><a href="#services">Meta Ads</a></li>
+            <li><a href="#services">Google Ads</a></li>
+            <li><a href="#services">SEO</a></li>
+            <li><a href="#services">Branding</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#why-us">About Us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fas fa-envelope"></i> mdakmal70786@gmail.com</li>
+            <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+            <li><i class="fab fa-whatsapp"></i> WhatsApp Chat</li>
+            <li><i class="fas fa-globe"></i> zynx.site</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Zynx Media. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <p>Built with ❤️ for digital growth</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== FLOATING BUTTONS ===================== -->
+  <a href="https://wa.me/917070017747" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="float-tooltip">Chat on WhatsApp</span>
+  </a>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
