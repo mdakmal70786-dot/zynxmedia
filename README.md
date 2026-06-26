@@ -113,7 +113,7 @@ GitHub Pages uses these IPs:
 ### Change Contact Info
 In `index.html`, search for:
 - `mdakmal70786@gmail.com` → replace with your email
-- `+91 98765 43210` → replace with your phone
+- `+91 7070017747` → replace with your phone
 - `wa.me/917070017747` → replace with your WhatsApp number
 
 ### Add Portfolio Images
@@ -164,7 +164,7 @@ Replace the Google Fonts link in `index.html` and update:
 ## 📞 Support
 **Website:** zynx.site  
 **Email:** mdakmal70786@gmail.com  
-**WhatsApp:** +91 98765 43210
+**WhatsApp:** +91 7070017747
 
 ---
 *Built with ❤️ by Zynx Media*
